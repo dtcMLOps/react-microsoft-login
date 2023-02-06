@@ -1,5 +1,6 @@
 export default {
-  client_id: "f8c7976f-3e93-482d-88a3-62a1133cbbc3",
+  client_id: "9b97f459-c340-45d0-bdaf-c3e4c5f18563",
+  tenantUrl: "https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
   graphScopesOptions: [
     {
       key: "user.read",

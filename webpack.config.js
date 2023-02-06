@@ -52,6 +52,11 @@ module.exports = {
     extensions: [".js", ".jsx"]
   },
   devServer: {
-    port: 3001
+    host: '0.0.0.0',
+    port: 3000,
+    disableHostCheck: true,
+    allowedHosts: [
+      'aksapp.io'
+  ]
   }
 };

@@ -1,0 +1,12 @@
+version: '3'
+services:
+  nodejs-server:
+    environment:
+      - HOST=0.0.0.0
+    build:
+      context: .
+    image: ghcr.io/ab-inbev-maz/lh-maz-pop-front-login:0.0.3
+    ports:
+      - "3000:3000"
+
+    container_name: node-api

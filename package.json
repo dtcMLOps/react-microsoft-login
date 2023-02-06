@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "watch": "tsc --watch",
-    "develop": "webpack serve --mode development",
+    "start": "webpack serve --mode development --host 0.0.0.0 --port 3000",
     "build": "rm -rf ./dist && tsc && webpack",
     "lint-staged": "lint-staged",
     "prepare": "is-ci || husky install",
